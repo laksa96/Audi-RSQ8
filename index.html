@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.png" type="image/png" sizes="32x32" />
+    <title>Audi</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- MINIFIED CSS FILE LOADED -->
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+    <!-- Header navigation -->
+    <div class="header">
+        <div class="header--content">
+            <a href="/">
+                <img class="header--logo" src="assets/Logo/Audi-Logo_2016.svg" alt="Audi logo">
+            </a>
+            <div class="header--nav">
+                <a href="/" class="header--nav--link header--nav__active">Homepage</a>
+                <div class="header--nav--drop">
+                    <a href="/" class="header--nav--link header--nav--drop">
+                        About Us
+                    </a>
+                    <div class="header--nav--dropdown">
+                        <a href="/">Our Team</a>
+                        <a href="/">Leadership</a>
+                        <a href="/">Partners</a>
+                    </div>
+                </div>
+                <a href="/" class="header--nav--link">Products</a>
+                <a href="/" class="header--nav--btn">Contact Us</a>
+            </div>
+            <div class="header--menu-btn">
+                <div class="header--menu-btn__line"></div>
+                <div class="header--menu-btn__line"></div>
+                <div class="header--menu-btn__line"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="menu">
+        <div class="menu--nav">
+            <a href="/" class="menu--nav--link menu--nav__active">Homepage</a>
+            <div class="menu--nav--drop">
+                <a class="menu--nav--link">
+                    About Us
+                </a>
+                <img class="menu--nav--arrow" src="assets/Icons/chevron-right.svg" alt="Arrow">
+                <div class="menu--nav--dropdown">
+                        <a href="/">Our Team</a>
+                        <a href="/">Leadership</a>
+                        <a href="/">Partners</a>
+                </div>
+            </div>
+            <a href="/" class="menu--nav--link">Products</a>
+            <a href="/" class="menu--nav--link menu--nav--link__red">Contact Us</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div id="carouselExampleCaptions" class="carousel slide hero--slider" data-bs-ride="carousel" data-bs-interval="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <picture>
+                    <source media="(min-width: 1920px)" srcset="assets/images/header-img-2560.jpg">
+                    <source media="(min-width: 1440px)" srcset="assets/images/header-img-1920.jpg">
+                    <source media="(min-width: 650px)" srcset="assets/images/header-img-1440.jpg">
+                    <img class="d-block w-100" src="assets/images/header-img-650.jpg" alt="Audi RSQ8">
+                </picture>                  
+                <div class="carousel-caption">
+                    <p class="hero--slider--subtitle">
+                        New Arrival
+                    </p>
+                    <h1 class="hero--slider--title">
+                        Expectations put limitations on possibilities.
+                    </h1>
+                    <p class="hero--slider--text">
+                        The Audi Q8 offers a unique performance that blends sport and utility into a momentous SUV design.
+                    </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <picture>
+                    <source media="(min-width: 1920px)" srcset="assets/images/header-img-2560.jpg">
+                    <source media="(min-width: 1440px)" srcset="assets/images/header-img-1920.jpg">
+                    <source media="(min-width: 650px)" srcset="assets/images/header-img-1440.jpg">
+                    <img class="d-block w-100" src="assets/images/header-img-650.jpg" alt="Audi RSQ8">
+                </picture>     
+                <div class="carousel-caption">
+                    <p class="hero--slider--subtitle">
+                        New Arrival
+                    </p>
+                    <h1 class="hero--slider--title">
+                        Track-tuned power and agility.
+                    </h1>
+                    <p class="hero--slider--text">
+                        Audi RS Q8 combines the genes of a high-performance RS model with the practicality of an SUV and the dynamic design of an Audi coupe.
+                    </p>
+                </div>
+              </div>
+            </div>
+        </div>
+        <button class="hero--arrow hero--arrow__left" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <img src="assets/Icons/chevron-right.svg" alt="arrow left">
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="hero--arrow hero--arrow__right" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <img src="assets/Icons/chevron-right.svg" alt="arrow right">
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- About Section -->
+    <div class="container">
+        <div class="about">
+            <div class="about--left">
+                <img class="about--image" src="assets/images/about-us-section.png" alt="Audi Q8">
+                <div class="about--bg">
+                    <span>A progressive design, a powerful engine</span>
+                </div>
+            </div>
+            <div class="about--right">
+                <span class="about--subtitle">About Q8</span>
+                <h1 class="about--title">Welcome to the 8th dimension. The new Audi Q8</h1>
+                <p class="about--text">
+                    With its imposing Singleframe in octagonal design, the Audi Q8 presents the new face of the Q family.
+                </p>
+                <p class="about--text-grey">
+                    The radiator grille combines with the forward-mounted spoiler and the strongly contoured air inlets to underline its confident look.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured Section -->
+    <div class="featured">
+        <div class="container">
+            <div class="featured--shadow"></div>
+            <img src="assets/images/section-banner-1920.jpg" alt="Audi RSQ8" class="featured--image">
+            <picture>
+                <source media="(min-width: 1920px)" srcset="assets/images/section-banner-2560.jpg">
+                <source media="(min-width: 1440px)" srcset="assets/images/section-banner-1920.jpg">
+                <source media="(min-width: 650px)" srcset="assets/images/section-banner-1440.jpg">
+                <img class="featured--image" src="assets/images/section-banner-650.jpg" alt="Audi RSQ8">
+            </picture> 
+            <span class="featured--subtitle">Featured</span>
+            <h1 class="featured--title">Brand new The Audi RSQ8</h1>
+            <p class="featured--text">The RS Q8 gives you the choice: depending on the selected equipment, its looks are even bolder and sportier to suit your personal ambitions.</p>
+            <div class="featured--specs">
+                <div class="featured--box">
+                    <span class="featured--name">Power Output</span>
+                    <span class="featured--num">441 kw</span>
+                    <span class="featured--unit">(600hp)</span>
+                </div>
+                <div class="featured--box">
+                    <span class="featured--name">Acceleration</span>
+                    <span class="featured--num">3.8</span>
+                    <span class="featured--unit">seconds</span>
+                </div>
+                <div class="featured--box">
+                    <span class="featured--name">Torque</span>
+                    <span class="featured--num">800</span>
+                    <span class="featured--unit">Nm</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Shop Section -->
+    <div class="container">
+        <div class="shop">
+            <h1 class="shop--title">You might take a look...</h1>
+            <div class="shop--nav">
+                <button data-cat="All" class="shop--nav--link shop--nav__active">All</button>
+                <button data-cat="Hatchback" class="shop--nav--link">Hatchback</button>
+                <button data-cat="Sportback" class="shop--nav--link">Sportback</button>
+                <button data-cat="Limousine" class="shop--nav--link">Limousine</button>
+                <button data-cat="SUV" class="shop--nav--link">SUV</button>
+                <button data-cat="Cabrio" class="shop--nav--link">Cabrio</button>
+            </div>
+            <div id="shop" class="shop--cars">
+                <!-- Cars generated via Javascript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Config popup layout -->
+    <div class="config config__hidden">
+        <div class="row config--window">
+            <div class="config--close"><img src="assets/Icons/close.png" alt="Close"></div>
+            <div class="config--left col-12 col-md-4">
+                <!-- Content is generated with JS -->
+            </div>
+            <div class="config--right col-12 col-md-8">
+                <h4>Audi Configurator</h4>
+                <p>Create your own audi.</p>
+                <div class="config--list">
+                    <!-- Content is generated with JS -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Buy prompt popup -->
+    <div class="buy buy__hidden">
+        <div class="buy--window">
+            <h4 class="buy--title">Are you sure you want to proceed with the purchase?</h4>
+            <div class="buy--prompt">
+                <button class="buy--confirm">Buy</button>
+                <button class="buy--close">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact / Footer section -->
+    <div class="contact">
+        <div class="container">
+            <div class="contact--text">
+                <span class="contact--subtitle">Contact Us</span>
+                <h1 class="contact--title">If you have any questions, don't hesitate to contact us.</h1>
+            </div>
+            <form action="" class="contact--form">
+                <img src="assets/images/contact-form-img.png" alt="Audi RSQ8" class="contact--image">
+                <label for="name">
+                    <span>Enter your name <strong>*</strong></span>
+                    <input class="contact--field" type="text" name="name" id="name" required>
+                </label>
+                <label for="email">
+                    <span>Enter your email <strong>*</strong></span>
+                    <input class="contact--field" type="email" name="email" id="email" required>
+                </label>
+                <label for="name">
+                    <span>Your message <strong>*</strong></span>
+                    <textarea class="contact--field" name="name" id="name" required id="" cols="30" rows="10"></textarea>
+                </label>
+                <button class="contact--btn">Submit</button>
+            </form>
+        </div>
+        <div class="contact--bottom">
+            <span>@ 2020 FSD. All rights reserved</span>
+            <div>
+                <a href="/">Terms of agreement</a>
+                <a href="/">Privacy Policy</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT LOADED -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.min.js"></script>
+    
+</body>
+</html>
