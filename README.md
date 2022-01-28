@@ -8,5 +8,5 @@ All data is saved in Javascript array of objects which contains information abou
 # Built With:
 
  - Javascript
- - SCSS
- - Bootstrap
+ - SCSS (BEM Methodology)
+ - Bootstrap (Slider and some layout elements)
